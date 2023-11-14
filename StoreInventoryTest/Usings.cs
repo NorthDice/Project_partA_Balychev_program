@@ -1,0 +1,2 @@
+global using Microsoft.VisualStudio.TestTools.UnitTesting;
+global using Project_partA_Balychev_program;

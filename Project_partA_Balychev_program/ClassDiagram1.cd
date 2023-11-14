@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Project_partA_Balychev_program.StoreItem">
+    <Position X="4.25" Y="1.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAQAAAAAAAIAAAAAEABAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>StoreItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_partA_Balychev_program.StoreInventory">
+    <Position X="0.5" Y="1.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAABAEAAgAFAQAAAAAAAAEAAAQAABQIAA=</HashCode>
+      <FileName>StoreInventory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project_partA_Balychev_program.Reader">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_partA_Balychev_program.Menu">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Project_partA_Balychev_program.Items">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAAAEIAAA=</HashCode>
+      <FileName>Items.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
