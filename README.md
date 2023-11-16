@@ -9,4 +9,4 @@
 ### Перелічення Items
 Цей enum надає розуміння, що цей магазин обмежується продажом тільки певних товарів, а саме - комп'ютерної переферії.
 ## Діаграма класів області StoreInventory
-![Текст описания](![Текст описания](https://github.com/NorthDice/Project_partA_Balychev_program/blob/master/Project_partA_Balychev_program/Project_partA_Balychev_diagram.png))
+(https://github.com/NorthDice/Project_partA_Balychev_program/blob/master/Project_partA_Balychev_program/Project_partA_Balychev_diagram.png)
