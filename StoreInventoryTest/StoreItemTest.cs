@@ -74,42 +74,6 @@ namespace StoreItemTest
             // Act and Assert
             Assert.ThrowsException<ArgumentException>(() => new StoreItem(20.0, 8, invalidItem));
         }
-        [TestMethod]
-        public void InStock_ItemInStock_ReturnsTrue()
-        {
-            // Arrange
-            StoreItem storeItem = new StoreItem(50.0, 3, Items.Headphones);
-
-            // Act
-            bool result = storeItem.InStock();
-
-            // Assert
-            Assert.IsTrue(result);
-        }
-
-        [TestMethod]
-        public void InStock_ItemOutOfStock_ReturnsFalse()
-        {
-            // Arrange
-            StoreItem storeItem = new StoreItem(30.0, 0, Items.Mouse);
-
-            // Act
-            bool result = storeItem.InStock();
-
-            // Assert
-            Assert.IsFalse(result);
-        }
-
-        [TestMethod]
-        public void InStock_NullItem_ThrowsNullReferenceException()
-        {
-            // Arrange
-            StoreItem storeItem = null;
-
-            // Act and Assert
-            Assert.ThrowsException<ArgumentException>(() => storeItem.InStock());
-        }
-
-
+    
     }
 }

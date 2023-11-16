@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_partA_Balychev_program
 {
-    public class StoreItem
+    public class StoreItem : Iinvoice
     {
         private double _price;
         private int _quantityInStock;
@@ -37,11 +37,9 @@ namespace Project_partA_Balychev_program
             set => throw new NotImplementedException();
         }
 
-        public bool InStock()
+        public void GetStorageInfo()
         {
             throw new NotImplementedException();
         }
-
-
     }
 }
